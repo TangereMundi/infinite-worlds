@@ -1,0 +1,734 @@
+{
+  "status": "done",
+  "application": {
+    "name": "Infinite Worlds",
+    "version": "0.1.0",
+    "analysis_version": "2",
+    "engines": {
+      "fractal": "0.2.0-cpu"
+    }
+  },
+  "source": {
+    "file": "still-human-by-christian-scholl-aka-tangere-mundi-456070.mp3",
+    "sha256": "6e2df96f6a0fc882c87860522d3af8b0821f3f0183c941f5fa1af20888f2e37f",
+    "metadata": {
+      "codec": "mp3",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bit_depth": null,
+      "bitrate": 256000,
+      "file_size": 7911168,
+      "duration": 247.224,
+      "title": null,
+      "artist": null,
+      "album": null,
+      "analysed_duration": 247.224
+    }
+  },
+  "audio": {
+    "measured": {
+      "integrated_lufs": -12.8,
+      "loudness_range_lu": 7.8,
+      "true_peak_dbfs": -1.1,
+      "sample_peak_dbfs": -1.31,
+      "dynamic_range_db": 13.51,
+      "tempo_bpm": 143.55,
+      "tempo_confidence": 0.412,
+      "onset_density_per_s": 5.157,
+      "energy_level": 0.675,
+      "centroid_hz_mean": 2027.8,
+      "bandwidth_hz_mean": 2416.1,
+      "rolloff_hz_mean": 881.3,
+      "contrast_db_mean": [
+        40.05,
+        31.81,
+        34.66,
+        28.22,
+        22.55,
+        21.1
+      ],
+      "low_share": 0.4103,
+      "mid_share": 0.5433,
+      "high_share": 0.0463,
+      "harmonic_ratio": 0.781,
+      "chroma_mean": [
+        0.1809,
+        0.0281,
+        0.1456,
+        0.029,
+        0.1063,
+        0.0588,
+        0.0543,
+        0.1223,
+        0.0283,
+        0.099,
+        0.0434,
+        0.1039
+      ],
+      "dominant_pitch_class": 0,
+      "stereo_width": 0.3442,
+      "repetition": 0.8532,
+      "section_count": 17
+    },
+    "tempo": {
+      "bpm": 143.55,
+      "confidence": 0.412,
+      "candidates": [
+        {
+          "bpm": 143.55,
+          "strength": 0.4324
+        },
+        {
+          "bpm": 95.7,
+          "strength": 0.316
+        },
+        {
+          "bpm": 71.78,
+          "strength": 0.3596
+        }
+      ]
+    },
+    "sections": [
+      {
+        "start": 0.0,
+        "end": 15.0,
+        "novelty": 8.2017
+      },
+      {
+        "start": 15.0,
+        "end": 34.5,
+        "novelty": 12.564
+      },
+      {
+        "start": 34.5,
+        "end": 49.0,
+        "novelty": 18.7785
+      },
+      {
+        "start": 49.0,
+        "end": 60.5,
+        "novelty": 13.9065
+      },
+      {
+        "start": 60.5,
+        "end": 84.0,
+        "novelty": 19.8182
+      },
+      {
+        "start": 84.0,
+        "end": 101.5,
+        "novelty": 20.8839
+      },
+      {
+        "start": 101.5,
+        "end": 115.5,
+        "novelty": 17.6484
+      },
+      {
+        "start": 115.5,
+        "end": 125.5,
+        "novelty": 16.6832
+      },
+      {
+        "start": 125.5,
+        "end": 142.5,
+        "novelty": 16.3564
+      },
+      {
+        "start": 142.5,
+        "end": 156.5,
+        "novelty": 19.2755
+      },
+      {
+        "start": 156.5,
+        "end": 166.5,
+        "novelty": 12.0823
+      },
+      {
+        "start": 166.5,
+        "end": 176.5,
+        "novelty": 18.0797
+      },
+      {
+        "start": 176.5,
+        "end": 187.0,
+        "novelty": 14.0765
+      },
+      {
+        "start": 187.0,
+        "end": 215.0,
+        "novelty": 12.73
+      },
+      {
+        "start": 215.0,
+        "end": 225.0,
+        "novelty": 15.1348
+      },
+      {
+        "start": 225.0,
+        "end": 238.5,
+        "novelty": 13.0898
+      },
+      {
+        "start": 238.5,
+        "end": 247.224,
+        "novelty": 11.7615
+      }
+    ],
+    "beat_count": 593
+  },
+  "seeds": {
+    "audio_seed": "972a0f0bbe0c728e62c797890556a7c577d423d080145dcb6e2bbdb1ea216771",
+    "generation_seed": "29155f183314f6eaa07a9c5f486067ffc2c710d260e575d58d03cb543ec6330a",
+    "generation_id": "g1",
+    "time_component": "",
+    "engine_version": "fractal=0.2.0-cpu",
+    "deterministic": true
+  },
+  "settings": {
+    "quality": "preview",
+    "preset": {
+      "width": 640,
+      "height": 360,
+      "fps": 24,
+      "render_scale": 1.0,
+      "supersample": 1,
+      "crf": 26,
+      "x264_preset": "veryfast"
+    },
+    "direction": "auto",
+    "style": "classic",
+    "audio_policy": "preserve",
+    "encoder_setting": "auto",
+    "watermark_enabled": false
+  },
+  "plan": {
+    "plan_hash": "ed84815a9e445f4f683c2bd3b62c15935dfc021fbf6978306416305bd7634008",
+    "scenes": [
+      {
+        "index": 0,
+        "engine": "fractal",
+        "start": 0.0,
+        "end": 39.208,
+        "mode": "mandelbrot",
+        "target": [
+          -0.5716352287297488,
+          0.5777916578771123
+        ],
+        "novelty_distance": 9.9,
+        "climax": false,
+        "mean_intensity": 0.453
+      },
+      {
+        "index": 1,
+        "engine": "fractal",
+        "start": 29.942,
+        "end": 87.973,
+        "mode": "mandelbrot",
+        "target": [
+          0.2803944443999497,
+          -0.6058328275798174
+        ],
+        "novelty_distance": 1.547,
+        "climax": false,
+        "mean_intensity": 0.605
+      },
+      {
+        "index": 2,
+        "engine": "fractal",
+        "start": 80.325,
+        "end": 118.664,
+        "mode": "mandelbrot",
+        "target": [
+          0.3351500056158815,
+          0.5571987525739478
+        ],
+        "novelty_distance": 1.135,
+        "climax": false,
+        "mean_intensity": 0.642
+      },
+      {
+        "index": 3,
+        "engine": "fractal",
+        "start": 112.142,
+        "end": 159.981,
+        "mode": "mandelbrot",
+        "target": [
+          -1.100987782032023,
+          0.26922857424344493
+        ],
+        "novelty_distance": 1.019,
+        "climax": false,
+        "mean_intensity": 0.699
+      },
+      {
+        "index": 4,
+        "engine": "fractal",
+        "start": 153.303,
+        "end": 191.377,
+        "mode": "mandelbrot",
+        "target": [
+          -0.5502505769943861,
+          -0.6012794592085721
+        ],
+        "novelty_distance": 1.159,
+        "climax": false,
+        "mean_intensity": 0.47
+      },
+      {
+        "index": 5,
+        "engine": "fractal",
+        "start": 182.325,
+        "end": 247.224,
+        "mode": "mandelbrot",
+        "target": [
+          0.2546356692039233,
+          0.6219212301804592
+        ],
+        "novelty_distance": 1.108,
+        "climax": true,
+        "mean_intensity": 0.55
+      }
+    ],
+    "transitions": [
+      {
+        "center": 34.575,
+        "start": 29.942,
+        "end": 39.208,
+        "type": "crossfade",
+        "boundary_kind": "section"
+      },
+      {
+        "center": 84.149,
+        "start": 80.325,
+        "end": 87.973,
+        "type": "dissolve",
+        "boundary_kind": "section"
+      },
+      {
+        "center": 115.403,
+        "start": 112.142,
+        "end": 118.664,
+        "type": "crossfade",
+        "boundary_kind": "section"
+      },
+      {
+        "center": 156.642,
+        "start": 153.303,
+        "end": 159.981,
+        "type": "dissolve",
+        "boundary_kind": "section"
+      },
+      {
+        "center": 186.851,
+        "start": 182.325,
+        "end": 191.377,
+        "type": "dissolve",
+        "boundary_kind": "section"
+      }
+    ],
+    "events": [
+      {
+        "type": "discovery",
+        "time": 0.0,
+        "engine": "fractal",
+        "what": "fractal/mandelbrot/zoom-in",
+        "score": 0.1746
+      },
+      {
+        "type": "discovery",
+        "time": 29.94,
+        "engine": "fractal",
+        "what": "fractal/mandelbrot/zoom-out",
+        "score": 0.2709
+      },
+      {
+        "type": "section_change",
+        "time": 34.58
+      },
+      {
+        "type": "discovery",
+        "time": 80.33,
+        "engine": "fractal",
+        "what": "fractal/mandelbrot/zoom-in",
+        "score": 0.3022
+      },
+      {
+        "type": "section_change",
+        "time": 84.15
+      },
+      {
+        "type": "discovery",
+        "time": 112.14,
+        "engine": "fractal",
+        "what": "fractal/mandelbrot/zoom-out",
+        "score": 0.1393
+      },
+      {
+        "type": "section_change",
+        "time": 115.4
+      },
+      {
+        "type": "discovery",
+        "time": 153.3,
+        "engine": "fractal",
+        "what": "fractal/mandelbrot/zoom-in",
+        "score": 0.254
+      },
+      {
+        "type": "section_change",
+        "time": 156.64
+      },
+      {
+        "type": "discovery",
+        "time": 182.32,
+        "engine": "fractal",
+        "what": "fractal/mandelbrot/zoom-out",
+        "score": 0.0863
+      },
+      {
+        "type": "section_change",
+        "time": 186.85
+      },
+      {
+        "type": "climax",
+        "time": 227.53,
+        "intensity": 0.797
+      },
+      {
+        "type": "resolution",
+        "time": 243.22
+      }
+    ]
+  },
+  "render": {
+    "frames": 5933,
+    "fps": 24,
+    "render_size": [
+      640,
+      360
+    ],
+    "output_size": [
+      640,
+      360
+    ],
+    "chunks": 25,
+    "chunks_rendered": 25,
+    "chunks_resumed": 0,
+    "workers": 8,
+    "encoder": "h264_nvenc",
+    "seconds": 1499.03
+  },
+  "mux": {
+    "audio_mode": "copy",
+    "container": ".mp4"
+  },
+  "quality_control": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "metrics": {
+      "width": 640,
+      "height": 360,
+      "aspect": 1.7778,
+      "fps": 24.0,
+      "video_duration": 247.207,
+      "audio_duration": 247.224,
+      "audio_hash_match": true,
+      "audio_packets_match": true,
+      "audio_decoded_match": true,
+      "frames_decoded": 5933,
+      "luma_mean": 0.348,
+      "luma_p99": 0.533,
+      "black_frame_ratio": 0.0,
+      "frame_diff_mean": 0.00905,
+      "frame_diff_max": 0.02537,
+      "flicker_p99": 0.00532,
+      "flicker_max": 0.01061,
+      "detail_p05": 0.03607,
+      "flat_frame_ratio": 0.0,
+      "near_duplicate_ratio": 0.0,
+      "longest_frozen_seconds": 0
+    },
+    "history": [
+      {
+        "attempt": 0,
+        "effective_generation_id": "g1",
+        "passed": true,
+        "issues": [],
+        "warnings": []
+      }
+    ]
+  },
+  "fingerprints_dhash_1fps": [
+    "a8a090d1494ae9b3",
+    "20203010988b8ac9",
+    "50603030101a0a0a",
+    "c2c0e07070303a1b",
+    "80c0c8e0e4f2713a",
+    "4000a880c8c6eaf2",
+    "109048440ca692c2",
+    "301018949c484723",
+    "3030303014140a87",
+    "e0f070726526361b",
+    "c4e0e8e9eee2cef6",
+    "88c8c1c9c9d4d2cb",
+    "0010108a99ad9299",
+    "181010121a0b1635",
+    "98301010181a0a31",
+    "28282834181939d8",
+    "4c3428383a383c38",
+    "64582a68293c383c",
+    "c948684a4d7e3e3c",
+    "fcc852a0864f5f3f",
+    "dedab3abd347cf5f",
+    "d9d13119b9a103a9",
+    "9090d12833362e3c",
+    "c3e3bbad656797ed",
+    "276d6967b1ef95af",
+    "4b6dcaeb162f8f2f",
+    "224c4fba1b093736",
+    "556a470b05153e12",
+    "57575385868a9a18",
+    "9baa87c1e5cdad95",
+    "25abe2f2e6e6bcb6",
+    "abf979f9e6eccdc4",
+    "5cddb9fbbbf8aca8",
+    "aa5e395dba7558aa",
+    "6a193b55b9595a6a",
+    "a2daa85abad24a75",
+    "9110985cb4a44ee4",
+    "9898ac9ab20604cc",
+    "561e2e0f173b4f1b",
+    "2c5e2e2756161616",
+    "ebe3e2e8c9f1e1f9",
+    "d0d191d1cbca5ac6",
+    "2e1e2d2c1d9dd54a",
+    "772e6c626676a425",
+    "b1a2968c5aaa36b4",
+    "9e5e97db55374cae",
+    "a8ac2e27aaab916d",
+    "57e753d1395148b4",
+    "5898d4542e9c26a8",
+    "dbd05849292d75ad",
+    "7e7f2e66eca66639",
+    "a72fa74743d36554",
+    "6141c2565252737d",
+    "a58040d4d464eaf3",
+    "a0a0d4d4b8e4d2ea",
+    "a0e0d0d0e9f56de9",
+    "c1e3c1f0f1a4a9cc",
+    "4767ebb3ab88cbca",
+    "6e6cccd6d3a52b14",
+    "cc5a8a4a9276514a",
+    "e5615148989316b5",
+    "d3b6d613b564a3ae",
+    "3a56aa6a2536bd82",
+    "cce9f1a4abae4c4c",
+    "292b43634d1d4a6c",
+    "172a362b331bbaa8",
+    "8c94ccc3b9f2c0cb",
+    "a9a569747475a6b7",
+    "65b5336345cddcc4",
+    "d65644484cc99997",
+    "d9adca4c16142d3b",
+    "54e6999d6b534706",
+    "166274acd8f169b1",
+    "332b5beec6aedc3c",
+    "181d2d695363a767",
+    "171636acac9c5849",
+    "191b932b97a7d666",
+    "9f9e14356aca28d1",
+    "3c8b9419635626ac",
+    "1dcc5f94adbac8e8",
+    "164f1cd8c869330f",
+    "838a486937270fcf",
+    "52ae2d36c4ddf1f4",
+    "16ce8bdcc9310384",
+    "94c14c2895c5cac5",
+    "754d69e5d5c1cac5",
+    "b8a4a06061604860",
+    "507022a0a0a0b0a0",
+    "3030707460606060",
+    "3534242510103120",
+    "a8b4242410101030",
+    "b448202094b0b0b0",
+    "3642222291b9a9a8",
+    "510b616512b2a888",
+    "6b9b626212929a9c",
+    "cab3f2421232959e",
+    "d880d0a8903094dc",
+    "d0c0b0b0d02898dc",
+    "42222232780c98d8",
+    "24c4a470d88848cc",
+    "80c0b4686814c864",
+    "4262a4646c262c44",
+    "c0c2aa3acecac286",
+    "c181aec4bdea512d",
+    "40216bd9ef6d4946",
+    "80c94b4aea444929",
+    "a0c9cdc993a2ccac",
+    "a0a989ca474b454e",
+    "401a2fa7ac9951cd",
+    "49da5ad24d4dbd6a",
+    "8989db50e66585d9",
+    "0d091dbab6284c24",
+    "5c5d323a62a7b9a5",
+    "be5a5a5a496243aa",
+    "9cb99d7b69697059",
+    "9ddabc6a88acc9c1",
+    "eb6be8e98b6a4dc5",
+    "e7ef696b8b7297cc",
+    "076f4b735b254de4",
+    "a66f6ba79ba5a56a",
+    "cec7b677d7ec787e",
+    "eef6d6db737c3d3e",
+    "6c6464ae31141e2e",
+    "2878b44c8d8e8e94",
+    "3971501927012a2d",
+    "33373b84c2cad4ad",
+    "cfb6e6f5f377f566",
+    "a564361b1e3c2907",
+    "1951280a09050101",
+    "ca938bc1cbc3c1c5",
+    "eaebd5e5e1f0f8fa",
+    "e8e1e3f5f1f9faf8",
+    "eee9f2f2f9f9fdf0",
+    "667fbaf3797bfd75",
+    "263414120c0a1b1d",
+    "010d0d0d0d0c1583",
+    "f3e3e3cbc2888242",
+    "249a1c523671b979",
+    "0707091118181ebd",
+    "12b8387472f4f575",
+    "6a4a883838387565",
+    "0301193566828282",
+    "0303031b1b34a914",
+    "fcfcf9752b1a1b3e",
+    "fcfdf9f9e2ab2b2b",
+    "2323f6f8f3a22734",
+    "8343e7e46b7163aa",
+    "07224226ace9d64a",
+    "9c9f8ba4ad6b5223",
+    "b4b2b99a652c3513",
+    "53a16a546d2a1613",
+    "2b98aeb73c1a1606",
+    "a9489d6c3513040f",
+    "3f5726113c160c0d",
+    "f0e87d351d0f0b05",
+    "c3c1c8e89a0c0c0e",
+    "5f5e436d5d494d0e",
+    "d7765f6a1b4b4f17",
+    "351d1f2b0b0f1d55",
+    "171f1d1b1b1b1517",
+    "1f17171b0d13171f",
+    "1616171b0d131616",
+    "3e1a15090d0a1e1a",
+    "2c2a3b2d052a3a1e",
+    "342a3729251a342e",
+    "3c3e262b251a353c",
+    "684d4d4a054b5d7d",
+    "6975554c070b0d5d",
+    "ddbd95aaa42eaddd",
+    "55ed955944252b16",
+    "e5991c130704081e",
+    "6a6e131315071b14",
+    "af66321914051519",
+    "ae6a391116050614",
+    "6269383c1b140e14",
+    "615830343a0d0e0e",
+    "c8747a7e6a646f06",
+    "b49563757a6e4a05",
+    "d6e7a34e5a4b1602",
+    "73a7b3ca6b495547",
+    "66651babf3de8e86",
+    "e5e66b2951288c84",
+    "c5ce6969d129190e",
+    "cfedacb82c492d0e",
+    "ba9b34ccac3c8d2b",
+    "12366656a6ceb55c",
+    "2a2e5785478a2636",
+    "490a828689aa2387",
+    "9b1a8a0189058a86",
+    "831309090b8187c5",
+    "438316090bc5c1c3",
+    "7c324547464ec363",
+    "19393536a52455a8",
+    "1819393db59a5b30",
+    "08193b1dd5da3231",
+    "60e46cac56a59214",
+    "5060516b2909291a",
+    "61e0244e1a2888de",
+    "4323c3d8e9ecf5f1",
+    "05c3e3e6eaf4e3e3",
+    "c3e3e1e2f4f6e3d3",
+    "c3e763e374f7d2e3",
+    "6763677179f5f6f6",
+    "a722323375f5f7f6",
+    "26f74caaf4eaf6ff",
+    "dd99a9a1e4ebfafc",
+    "c8a989d0c5c1c0c0",
+    "09091b1b05010101",
+    "0a0c0903950151a3",
+    "8c85812ba1c5c356",
+    "4646a4c247655325",
+    "93e6e767232ba723",
+    "65636727a34b120f",
+    "b93516372daa8d06",
+    "ad6b2a8a9b1b0b89",
+    "270e1f192b1b4b5b",
+    "09132713151b5b37",
+    "1c3d3333337b4333",
+    "f8f8f870f8f97070",
+    "38345c7068d0e8e0",
+    "d3ad74b068e8e8f0",
+    "55442fe528e8e0d0",
+    "96b6aca6ebe8f0f0",
+    "a8d5c5eaebe1f1e9",
+    "e1e856722f335373",
+    "6323b13816129202",
+    "2963d3d995860980",
+    "292ac36b45cbe1f1",
+    "1a2a69a3e6f2faf2",
+    "d0d9ebe1753a3f1a",
+    "54343a2a1a0c8800",
+    "0404160809050284",
+    "e2c4e4e9e3f0f0f8",
+    "f8f2faf0f4f9fcbd",
+    "1e1c1a16190d0c06",
+    "07068ccd4b652732",
+    "241496c4c4e2e3e1",
+    "8ae0f0f5f4f4f8f9",
+    "d4f0f8783c1a1d1c",
+    "407019180989ce4a",
+    "a02018c84929a2cd",
+    "a050d0288ac2e5e6",
+    "20d040c8e1eaf276",
+    "8840d0c0f170351a",
+    "8090d0607035130c",
+    "4050606034131a8c",
+    "2040407020109bca"
+  ],
+  "performance": {
+    "timings_s": {
+      "analysis_s": 6.68,
+      "plan_a0_s": 23.22,
+      "render_a0_s": 1499.04,
+      "mux_a0_s": 0.28,
+      "qc_a0_s": 4.88
+    },
+    "total_s": 1534.12,
+    "peak_memory_mb": 1203.9,
+    "vram_peak_mb": null,
+    "hardware": {
+      "cpu_logical": 28,
+      "cpu_physical": 14,
+      "ram_total_gb": 31.9,
+      "ram_available_gb": 9.3,
+      "gpu_name": "NVIDIA GeForce RTX 2060",
+      "vram_total_mb": 6144,
+      "nvenc_usable": true
+    }
+  },
+  "output": "output\\still-human-by-christian-scholl-aka-tangere-mundi-456070__g1.mp4"
+}
